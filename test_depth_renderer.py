@@ -1,4 +1,9 @@
+'''
+This is a modification of opendr's test script to test it out on faces, which is a more complicated 3d shape
+'''
 from renderer import DepthRenderer
+import sys
+sys.path.append('/usr/local/lib/python2.7/site-packages/')
 import numpy as np
 import unittest
 
